@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Unity.Entities;
 using UnityEngine;
 
-public struct ResourceStorage : IComponentData {
+public struct IntBufferElement : IBufferElementData
+{
     public int Value;
-    public int ExpectedOut;
 }

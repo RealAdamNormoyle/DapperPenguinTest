@@ -5,5 +5,10 @@ using UnityEngine;
 
 public struct ResourceConsumer : IComponentData
 {
-    public bool IsVehicleDispatched { get; set; }
+    public int ConsumerId;
+    public bool IsVehicleDispatched;
+    public bool ProducerReadyForVehicle;
+    public int TargetProducerId;
+    public int VehicleId;
+
 }

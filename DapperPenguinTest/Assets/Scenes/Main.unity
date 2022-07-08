@@ -246,15 +246,15 @@ MonoBehaviour:
   m_gridWidth: 256
   m_gridHeight: 256
   m_gridCellMaterial: {fileID: 2100000, guid: e76e7b5f6d4454d4e907c66458893b3b, type: 2}
-  m_producerCount: 5
-  m_producerProductionPerSecond: 1
+  m_producerCount: 3
+  m_producerProductionPerSecond: 10
   m_producerMaterial: {fileID: 2100000, guid: 37843ecd1b5cc1b4f81c6bc267e4862f, type: 2}
-  m_consumerCount: 2
+  m_consumerCount: 5
   m_consumerMaterial: {fileID: 2100000, guid: 0b399deee9e43ff46ae59d43193c521a, type: 2}
   m_vehiclesPerConsumer: 1
   m_vehicleMaterial: {fileID: 2100000, guid: f4888f1ecb934ed49b0adb387563b2dc, type: 2}
   m_vehicleScale: 0.5
-  m_roadMaterial: {fileID: 2100000, guid: f4888f1ecb934ed49b0adb387563b2dc, type: 2}
+  m_roadMaterial: {fileID: 2100000, guid: 243630feedf3907439b957534d9b75b8, type: 2}
 --- !u!4 &854688533
 Transform:
   m_ObjectHideFlags: 0
@@ -304,8 +304,8 @@ Camera:
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -321,8 +321,8 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
-  orthographic size: 5
+  orthographic: 1
+  orthographic size: 130
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
